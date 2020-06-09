@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+
+<body>
+
+  <!-- Sidebar/menu -->
+  <nav class="w3-sidebar w3-red w3-collapse w3-top w3-large w3-padding" style="z-index:3;width:300px;font-weight:bold;"
+    id="mySidebar"><br>
+    <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-hide-large w3-display-topleft"
+      style="width:100%;font-size:22px">Close Menu</a>
+    <div class="w3-container">
+      <h3 class="w3-padding-64"><b>MSM <br>Xtended</b></h3>
+    </div>
+    <div class="w3-bar-block">
+      <a href="#" class="w3-bar-item w3-button w3-hover-white">Home</a>
+      <a href="#aboutUs" class="w3-bar-item w3-button w3-hover-white">About Us</a>
+      <a href="#highlights" class="w3-bar-item w3-button w3-hover-white">Highlights</a>
+      <a href="#features" class="w3-bar-item w3-button w3-hover-white">Detailed Features</a>
+      <a href="#changelog" class="w3-bar-item w3-button w3-hover-white">Changelogs</a>
+      <a href="#download" class="w3-bar-item w3-button w3-hover-white">Download</a>
+      <a href="#donate" class="w3-bar-item w3-button w3-hover-white">Donate</a>
+    </div>
+  </nav>
+
+  <!-- Top menu on small screens -->
+  <header class="w3-container w3-top w3-hide-large w3-red w3-xlarge w3-padding">
+    <a href="javascript:void(0)" class="w3-button w3-red w3-margin-right" onclick="w3_open()">&#9776;</a>
+    <span>NSM Xtended</span>
+  </header>
+
+  <!-- Overlay effect when opening sidebar on small screens -->
+  <div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu"
+    id="myOverlay"></div>
+
+  <!-- !PAGE CONTENT! -->
+  <div class="w3-main" style="margin-left:340px; margin-right:40px">
+
+    <!-- Header -->
+    <div id="home">
+      <h1 class="w3-jumbo heading"><b>Journey of MSM Xtended</b></h1>
+      <h2 class="sub-heading">
+        <span class="label">The Custom ROM.</span>
+      </h2>
+      <!-- <hr style="width:50px;border:5px solid red" class="w3-round"> -->
+      <div class="recent-works">
+        <h3 style="text-align: center;">About MSM-Xtended</h3>
+        <p style="text-align: center; color :lightcyan;">*** Ohh Really we need to introduce! ;). We team "MSM Xtended"
+          are here with new era of Android. We have tried our best to blend it with all available options, features and
+          stability in to one for better user experience.***</p>
+      </div>
+    </div>
+
+    <!-- The Core Team -->
+    <div class="core-tem-members-sec" id="aboutUs">
+      <h2 class="sub-heading">
+        <span class="label">Core Team members.</span>
+      </h2>
+      <!-- <hr style="width:50px;border:5px solid red" class="w3-round"> -->
+      <div class="card-section">
+        <mat-card class="ccard">
+          <h3>SuperDroidBond</h3>
+          <p>CEO & Founder</p>
+          <p>Without Bond there is nothing to Xtend.</p>
+        </mat-card>
+        <mat-card  class="ccard">
+          <h3>Mukesh Singh</h3>
+          <p class="w3-opacity">COO & Founder</p>
+          <p>Head of the family to take care of everyone and everything</p>
+        </mat-card>
+        <mat-card class="ccard">
+          <h3>Mady51</h3>
+          <p class="w3-opacity">CTO & Founder</p>
+          <p>Just a moral support guy.</p>
+        </mat-card>
+      </div>
+    </div>
+
+    <div class="our-contributors-sec">
+      <h2 class="sub-heading">
+        <span class="label">Our Contributors.</span>
+      </h2>
+      <div class="card-section">
+        <mat-card class="ccard">
+          <h3>Ultranoob</h3>
+          <p class="w3-opacity">OP6/T (Enchilda & Fajitha)</p>
+          <p>technically not a noob though.</p>
+        </mat-card>
+        <mat-card class="ccard">
+          <h3>Sonal</h3>
+          <p class="w3-opacity">Asus Zenfone Max Pro M2 (X01BD)</p>
+          <p>Techie guy</p>
+        </mat-card>
+        <mat-card class="ccard">
+          <h3>Ashwathama</h3>
+          <p class="w3-opacity">Moto G5s Plus (Sanders)</p>
+          <p>technically Drunker.</p>
+        </mat-card>
+        <mat-card class="ccard">
+          <h3>Chandra</h3>
+          <p class="w3-opacity">OP7pro</p>
+          <p>Techie guy</p>
+        </mat-card>
+      </div>
+    </div>
+
+    <div class="our-highlights-sec" id="highlights">
+      <h2 class="sub-heading">
+        <span class="label">Major Highlights.</span>
+      </h2>
+      <div style="width: 820px; float: none; clear: both; margin: 2px auto;">
+        <iframe width="956" height="538"  src="https://www.youtube.com/embed/PjToEv-_xnQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+    </div>
+
+    <!-- Packages Tables -->
+    <div id="features" class="features-sec">
+      <h2 class="sub-heading">
+        <span class="label">Features.</span>
+      </h2>
+      <p>Looking for something special? yes we have basic features like all do and also some special features to make
+        over your phone. And we categorised them under Xtensions which is the heart of our project.</p>
+      <div class="w3-row-padding">
+        <div class="w3-half w3-margin-bottom">
+          <ul class="w3-ul w3-light-grey w3-center" >
+            <li  class="w3-dark-grey w3-xlarge w3-padding-32" >Basic</li>
+            <li class="w3-padding-16">Display</li>
+            <li class="w3-padding-16">Sound</li>
+            <li class="w3-padding-16">Security</li>
+            <li class="w3-padding-16">Keyboard</li>
+            <li class="w3-padding-16">Apps and Notifications</li>
+          </ul>
+        </div>
+
+        <div class="w3-half">
+          <ul class="w3-ul w3-light-grey w3-center">
+            <li class="w3-red w3-xlarge w3-padding-32">Xtensions</li>
+            <li class="w3-padding-16">Decor Room</li>
+            <li class="w3-padding-16">Lock Screen</li>
+            <li class="w3-padding-16">Quick Settings</li>
+            <li class="w3-padding-16">Status bar settings</li>
+            <li class="w3-padding-16">System settings</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="changelog-sec" id="changelog">
+        <h2 class="sub-heading">
+          <span class="label">Changelog</span>
+        </h2>
+       
+        <div id="list">
+          <mat-card class="ccard">
+           <p> <embed class="iframe-changelog" src="./../assets/raphael.txt" style="height:400px;width:-webkit-fill-available;border:none;"></p>
+            <!-- <iframe src="./../assets/raphael.txt" style="height:200px;width:-webkit-fill-available;border:none;" ></iframe> -->
+          </mat-card>
+          <!-- <p> <iframe src="https://raw.githubusercontent.com/mady51/mysite/master/changelog" style="height:200px;width:-webkit-fill-available;border:none;" ></iframe></p> -->
+        <!-- <object data="./../assets/raphael.txt"></object> -->
+     </div>
+    </div> 
+
+    <!-- Download links-->
+    <div  id="download" class="download-sec">
+        <h2 class="sub-heading">
+          <span class="label">Download.</span>
+        </h2>
+
+        <!-- <mat-form-field>
+          <mat-label>Filter</mat-label>
+          <input matInput (keyup)="applyFilter($event)" placeholder="Ex. Mia">
+        </mat-form-field> -->
+
+        <div class="mat-elevation-z8" *ngIf="dataSource">
+          <table mat-table [dataSource]="dataSource" matSort>
+            <!-- ID Column -->
+            <ng-container matColumnDef="sno">
+              <th mat-header-cell *matHeaderCellDef mat-sort-header> S.NO </th>
+              <td mat-cell *matCellDef="let row"> {{row.sno}} </td>
+            </ng-container>
+
+            <!-- Progress Column -->
+            <ng-container matColumnDef="deviceName">
+              <th mat-header-cell *matHeaderCellDef mat-sort-header> Device Name </th>
+              <td mat-cell *matCellDef="let row"> {{row.deviceName}} </td>
+            </ng-container>
+
+            <!-- Name Column -->
+            <ng-container matColumnDef="developer">
+              <th mat-header-cell *matHeaderCellDef mat-sort-header> Developer </th>
+              <td mat-cell *matCellDef="let row"> {{row.developer}} </td>
+            </ng-container>
+
+            <!-- Color Column -->
+            <ng-container matColumnDef="download">
+              <th mat-header-cell *matHeaderCellDef mat-sort-header> Download </th>
+              <td mat-cell *matCellDef="let row" [style.color]="row.download">
+                <span class="material-icons">
+                  get_app 
+                  </span> 
+                  <a href="{{row.download}}"> Download </a> 
+              </td>
+            </ng-container>
+            <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+            <tr mat-row *matRowDef="let row; columns: displayedColumns;">
+            </tr>
+          </table>
+          <mat-paginator [pageSizeOptions]="[5, 10, 25, 100]"></mat-paginator>
+        </div>
+    </div>  
+
+
+
+    <!-- Donate -->
+    <div class="download-sec" id="donate" >
+      <h2 class="sub-heading">
+        <span class="label">Donate. <span class="material-icons">payments</span></span>
+      </h2>
+      <h4 class="donate-link">Do you want to support Team Xtended?
+        <p>Support SuperDroidBond - <a  href="http://www.paypal.me/superdroidbond" target="_blank"
+            title="Santosh Jha" style="
+            color: darkorange;"> Click here to donate</a> </p>
+        <p>Support Mukesh Singh - <a href="http://www.paypal.me/mukesh22584" target="_blank" title="Mukesh Singh" style="
+          color: darkorange;">Click here to donate</a></p>
+      </h4>
+    </div>
+  </div>
+
+
+  <!-- End page content -->
+
+
+  <!-- W3.CSS Container -->
+  <div class="w3-light-grey w3-container w3-padding-32" style="margin-top:75px;padding-right:58px">
+    <p class="w3-right">Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank"
+        class="w3-hover-opacity">w3.css</a></p>
+  </div>
+
+  <script>
+    // Script to open and close sidebar
+    function w3_open() {
+      document.getElementById("mySidebar").style.display = "block";
+      document.getElementById("myOverlay").style.display = "block";
+    }
+
+    function w3_close() {
+      document.getElementById("mySidebar").style.display = "none";
+      document.getElementById("myOverlay").style.display = "none";
+    }
+
+    // Modal Image Gallery
+    function onClick(element) {
+      document.getElementById("img01").src = element.src;
+      document.getElementById("modal01").style.display = "block";
+      var captionText = document.getElementById("caption");
+      captionText.innerHTML = element.alt;
+    }
+  </script>
+
+</body>
+
+</html>
