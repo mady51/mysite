@@ -1,0 +1,43 @@
+**MSM Xtended XQ Release-v8.0 Changelogs**
+* Fixed DC Dimming
+* Added DC Dimming QS Tile
+* Added ringer mode checking for camera sound effect
+* FOD: Added dispparam handling mechanism as fallback
+* Fixed A2DP when offload is disabled 
+* Improved FOD on AOD
+* Enabled LED Notifications
+* Fixed MultiUser Section FC
+* Switched to April Crosshatch build fingerprint 
+* Switched to Latest Immensity Kernel
+
+**MSM Xtended XQ Release-v7.0 Changelogs**
+
+- Updated Coral Build Fingerprint to March Security Patch
+- Updated Anx Cam to latest
+- Switched to Latest Immensity
+- Enable vibration multiple intensities
+* Activates some options on Settings>accessibility>vibration
+- Used USB audio policy configuration from AOSP
+* This can greatly improve audio quality when an external
+  USB DAC is connected
+- Fix dark theme issues
+* This brings SwitchBar widget inline with 10 and fixes the
+  theme issues when the dark mode is enabled
+- Updated vibrator configurations
+- Removed Ambient Display from Display Settings
+- Fixed the shitty HD icon in Statusbar
+- Fixed Ambient FC in Xtensions
+- Defined My Name Tag in About section 😎
+
+
+**MSM Xtended XQ Release-v6.0 Changelogs**
+
+* Added latest los fod changes
+* Added Raise to wake feature
+* Switched to F1XY Kernel (as per my liking ¯\_(ツ)_/¯)
+* Enabled AOSP Bluetooth Hal v2
+* Updated Coral's build fingerprint to Feb 2020 security patch
+* Fixed Ambient in Decor Room
+* Fixed Mi Sound Enhancer
+* Fixed Popup Sound selection
+* Fixed safetynet from previous test build

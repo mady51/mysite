@@ -42,7 +42,9 @@
 
     <!-- Header -->
     <div id="home">
-      <h1 class="w3-jumbo heading"><b>Journey of MSM Xtended</b></h1>
+      <h1 class="w3-jumbo heading">
+        <img src="./../../assets/MSM_Homepage_4_2000.png" width="auto" height="150px" >
+    </h1>
       <h2 class="sub-heading">
         <span class="label">The Custom ROM.</span>
       </h2>
@@ -156,12 +158,9 @@
        
         <div id="list">
           <mat-card class="ccard">
-           <p> <embed class="iframe-changelog" src="./../assets/raphael.txt" style="height:400px;width:-webkit-fill-available;border:none;"></p>
-            <!-- <iframe src="./../assets/raphael.txt" style="height:200px;width:-webkit-fill-available;border:none;" ></iframe> -->
+           <p> <embed class="iframe-changelog" src="./../assets/Changelog.txt" style="height:400px;width:-webkit-fill-available;border:none;"></p>
           </mat-card>
-          <!-- <p> <iframe src="https://raw.githubusercontent.com/mady51/mysite/master/changelog" style="height:200px;width:-webkit-fill-available;border:none;" ></iframe></p> -->
-        <!-- <object data="./../assets/raphael.txt"></object> -->
-     </div>
+        </div>
     </div> 
 
     <!-- Download links-->
@@ -169,12 +168,6 @@
         <h2 class="sub-heading">
           <span class="label">Download.</span>
         </h2>
-
-        <!-- <mat-form-field>
-          <mat-label>Filter</mat-label>
-          <input matInput (keyup)="applyFilter($event)" placeholder="Ex. Mia">
-        </mat-form-field> -->
-
         <div class="mat-elevation-z8" *ngIf="dataSource">
           <table mat-table [dataSource]="dataSource" matSort>
             <!-- ID Column -->
@@ -209,7 +202,7 @@
             <tr mat-row *matRowDef="let row; columns: displayedColumns;">
             </tr>
           </table>
-          <mat-paginator [pageSizeOptions]="[5, 10, 25, 100]"></mat-paginator>
+          <!-- <mat-paginator [pageSizeOptions]="[5, 10, 25, 100]"></mat-paginator> -->
         </div>
     </div>  
 
